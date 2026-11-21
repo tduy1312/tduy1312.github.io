@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    #hoca {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      translate: -50% -50%;
+      border: 10px double black;
+      height: 800px;
+      width: 90%;
+      border-top: 0;
+      background-image: url("beca1.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .ca {
+      position: absolute;
+      width: 150px;
+    }
+
+   @keyframes caboi1 {
+      0% { translate: 20px 30px; }
+      25% { translate: 320px 80px; }
+      48% { translate: 650px 50px; }
+      52% { translate: 650px 50px; rotate: -180deg; }
+      75% { translate: 320px 80px; }
+      100% { translate: 20px 30px; }
+    }
+
+    @keyframes caboi2 {
+      0% { translate: 40px 280px; }
+      25% { translate: 380px 330px; }
+      48% { translate: 720px 270px; }
+      52% { translate: 720px 270px; rotate: -180deg; }
+      75% { translate: 380px 330px; }
+      100% { translate: 40px 280px; }
+    }
+
+    @keyframes caboi3 {
+      0% { translate: 750px 560px; }
+      25% { translate: 450px 520px; }
+      48% { translate: 120px 590px; }
+      52% { translate: 120px 590px; rotate: -180deg; }
+      75% { translate: 450px 520px; }
+      100% { translate: 750px 560px; }
+    }
+
+    #ca1 { animation: caboi1 22s infinite; }
+    #ca2 { animation: caboi2 26s infinite; }
+    #ca3 { animation: caboi3 24s infinite; }
+  </style>
+</head>
+<body>
+  <h1>Phạm Tuấn Duy-52.01.104.022</h1>
+  <div id="hoca">
+    <img id="ca1" src="shark.png"/>
+    <img id="ca2" src="goldfishschool.png"/>
+    <img id="ca3" src="turtle.png"/>
+  </div>
+</body>
+</html>
